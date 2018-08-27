@@ -1,0 +1,31 @@
+@charset "utf-8";
+#bottom {
+	background-image: url(wgimg/footer_bg.gif);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 513px;
+	margin: 0 auto;
+	
+}
+#bottom ul li {
+	float: left;
+	margin-top: 14px;
+	margin-right: 12px;
+	margin-bottom: 5px;
+	margin-left: 12px;
+}
+
+#bottom ul li a {
+	color: #FFF;
+}
+#bottom ul {
+	padding-left: 50px;
+}
+#bottom p {
+	clear: both;
+	float: right;
+	height: 30px;
+	margin-top: 12px;
+	margin-right: 180px;
+	color: #36F;
+}

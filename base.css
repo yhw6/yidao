@@ -1,0 +1,113 @@
+@charset "utf-8";
+*{
+	font-size: 12px;
+	border:0;
+	padding:0;
+	margin:0;
+	list-style:none;
+	}
+
+body{
+	background-image: url(wgimg/body_bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #67CCFF;
+	
+	}
+#box {
+	width: 953px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	
+
+}
+#header {
+	height: 185px;
+	position: relative;
+	background-image: url(wgimg/header_bg.jpg);
+	background-repeat: no-repeat;
+}
+
+#bottom {
+	clear: both;
+}
+#b_l {
+	/*background-color: #F0F;*/
+	float: left;
+	height: 860px;
+	width: 200px;
+	position:relative;
+	margin-right:2px;
+	
+}
+#b_m {
+	/*background-color: #0FF;*/
+	float: left;
+	height: 860px;
+	width: 513px;
+	position:relative;
+}
+#b_r {
+	/*background-color: #FF0;*/
+	height: 825px;
+	width: 236px;
+	float: right;
+	
+}
+#box #body #b_l #special {
+	background-image: url(wgimg/special_bg.gif);
+	background-repeat: repeat-y;
+	position: absolute;
+	left: 0px;
+	top: 250px;
+	margin-top: 2px;
+}
+#box #body #b_l #special h4 {
+	font-size: 14px;
+	background-image: url(wgimg/special_h1.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height:24px;
+	width: 65px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+#box #body #b_l #special h5 {
+	background-image: url(wgimg/special_h2.gif);
+	background-repeat: no-repeat;
+	float: right;
+	height: 24px;
+	width: 75px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#box #body #b_l #special ul {
+	background-image: url(wgimg/special_ul_bg.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	clear: both;
+	height: 220px;
+	list-style-type: none;
+	padding-top: 12px;
+	margin-right: 2px;
+}
+
+#box #body #b_l #special ul li a {
+	color: #FFF;
+}
+#box #body #b_l #special ul li #first {
+	color: #000;
+}
+#box #body #b_l #special ul li {
+	font-size: 14px;
+	line-height: 25px;
+	background-image: url(wgimg/special_b.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-indent: 20px;
+	margin-left: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FF0;
+}

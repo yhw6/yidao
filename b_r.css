@@ -1,0 +1,201 @@
+@charset "utf-8";
+#box #body #b_r #helper h1 span {
+	float: left;
+	height: 32px;
+	width: 104px;
+	display: block;
+	background-image: url(wgimg/helper_h1.jpg);
+}
+#box #body #b_r {
+	background-color: #FFF;
+	background-image: url(wgimg/link2_bg.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-top:3px;
+}
+#box #body #b_r #helper ul {
+	clear: both;
+}
+
+#helper_map,helper_traffic,helper_rate,helper_knowledge {
+	height: 19px;
+	width: 19px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+#helper_map{
+	float:left;
+	background-image: url(wgimg/helper_map.gif);
+	background-repeat: no-repeat;
+}
+
+#helper_map a {
+	height: 20px;
+	width: 60px;
+	display: block;
+	margin-left: 28px;
+	color: #666;
+}
+#box #body #b_r #helper ul #helper_traffic {
+	margin-top:4px;
+	float:right;
+	background-image: url(wgimg/helper_traffic.gif);
+	background-repeat: no-repeat;
+}
+
+#box #body #b_r #helper ul #helper_traffic a {
+	height: 20px;
+	width: 60px;
+	margin-left: 28px;
+	display: block;
+	color: #666;
+}
+
+#box #body #b_r #helper ul #helper_rate {
+	clear:both;
+	margin-left:10px;
+	float:left;
+	background-image: url(wgimg/helper_rate.gif);
+	background-repeat: no-repeat;
+}
+#box #body #b_r #helper ul #helper_rate a {
+	height: 20px;
+	width: 60px;
+	margin-left: 28px;
+	display: block;
+	color: #666;
+}
+#box #body #b_r #helper ul #helper_knowledge {
+	background-image: url(wgimg/helper_knowledge.gif);
+	background-repeat: no-repeat;
+	float: right;
+}
+#box #body #b_r #helper ul #helper_knowledge a {
+		height: 20px;
+	width: 60px;
+	margin-left: 28px;
+	display: block;
+	color: #666;
+}
+#box #body #b_r #helper {
+	height: 102px;
+	width: 236px;
+}
+#box #body #b_r #hot h1 span {
+	background-image: url(wgimg/hot_h1.gif);
+	float: left;
+	height: 39px;
+	width: 123px;
+}
+#box #body #b_r #hot h2 {
+	background-image: url(wgimg/writing_h2.gif);
+	background-repeat: no-repeat;
+	margin-top:-1px;
+	float: right;
+	height: 22px;
+	width: 75px;
+	margin-right: 28px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+#box #body #b_r #hot ul {
+	clear: both;
+	padding-top: 5px;
+	padding-right: 40px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+#box #body #b_r #hot ul li {
+	line-height: 20px;
+	background-image: url(wgimg/a_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-indent: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin-left: 20px;
+}
+#box #body #b_r #hot ul li a {
+	color: #666;
+}
+#box #body #b_r #select #f_select fieldset legend {
+	display: none;
+}
+#box #body #b_r #select {
+	background-image: url(wgimg/select_bg.gif);
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 220px;
+	margin-left: 8px;
+}
+#box #body #b_r #select #f_select fieldset select {
+	margin-top: 28px;
+	margin-left: 70px;
+	color: #333;
+}
+#box #body #b_r #food h1 span {
+	background-image: url(wgimg/food_h1.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 39px;
+	width: 123px;
+}
+#box #body #b_r #food {
+	height: 280px;
+	width: 236px;
+	padding-top: 2px;
+}
+#box #body #b_r #food h2 {
+	background-image: url(wgimg/writing_h2.gif);
+	background-repeat: no-repeat;
+	float: right;
+	height: 22px;
+	width: 75px;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-right:28px;
+	margin-top:-1px;
+}
+#box #body #b_r #food ul {
+	clear: both;
+	margin-right: 40px;
+	margin-left: 10px;
+	padding-top: 4px;
+}
+#box #body #b_r #food ul li {
+	line-height: 20px;
+	background-image: url(wgimg/a_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	text-indent: 20px;
+	margin-left: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+#box #body #b_r #food ul li a {
+	color: #666;
+}
+
+#box #body #b_r #friend {
+	background-image: url(wgimg/friend_ul_bg.gif);
+	background-repeat: no-repeat;
+	padding-top:15px;
+	margin-left:8px;
+	height: 110px;
+	width: 236px;
+}
+#box #body #b_r #friend ul li {
+	text-align: right;
+	line-height: 18px;
+	padding-right: 70px;
+}
+#box #body #b_r #friend ul {
+	margin-top: -10px;
+}
+#box #body #b_r #friend ul li a {
+	color: #666;
+}

@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+*{
+	font-size: 12px;
+	border:0;
+	padding:0;
+	margin:0;
+	list-style:none;
+	}
+#nav_top {
+	float: right;
+	width: 360px;
+}
+
+a {
+	text-decoration: none;
+}
+#box #header #nav_top ul li {
+	float: left;
+	font-size: 14px;
+	border-top-width: 5px;
+	border-right-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #67CCFF;
+	border-right-color: #67CCFF;
+	padding-top: 3px;
+}
+#box #header #nav_top ul li a {
+	color: #FFF;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#box #header #nav_top ul .last_li {
+	border-right-style: none;
+}
+#box #header #nav_main {
+	position: absolute;
+	left: 0px;
+	top: 128px;
+	height: 55px;
+	width: 642px;
+	background-image: url(wgimg/nav_main_bg.gif);
+	background-repeat: no-repeat;
+}
+#box #header #nav_main #nav li {
+	font-size: 14px;
+	float: left;
+	border-top-width: 0;
+	border-left-width: 0;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #fff;
+}
+#box #header #nav_main #nav {
+	width: 650px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#box #header #nav_main #nav li a {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#box #header #nav_main #nav li.last {
+	border-right-style: none;
+}
+#box #header #login {
+	background-image: url(wgimg/login_bg.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 55px;
+	width: 308px;
+	left: 643px;
+	top: 128px;
+	/*border:1px #000000 solid;*/
+}
+#box #header #login #f_login {
+	float: right;
+	height: 55px;
+	width: 179px;
+	margin-top: 9px;
+	margin-right: 12px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+/*	border:1px #000000 solid;*/
+}
+#box #header #login #f_login fieldset {
+	border: 0;
+}
+#box #header #login #f_login fieldset legend {
+	display: none;
+}
+#box #header #login #f_login fieldset label {
+	line-height: 18px;
+	color: #039;
+	clear: left;
+	float: left;
+}
+#f_login_name, #f_login_pass {
+	width: 95px;
+	background:none;
+	float: left;
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style:none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #039;
+}
+#f_login_enter, #f_login_reg {
+	width: 42px;
+	height: 18px;
+	position: absolute;
+	right: 12px;
+	border: none;
+}
+#f_login_enter {
+	background: url(wgimg/btn_login.gif) no-repeat;
+}
+#f_login_reg {
+	background: url(wgimg/btn_reg.gif) no-repeat;
+	top: 29px;
+}
